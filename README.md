@@ -1,2 +1,9 @@
 # Exam-for-Python-Crash-Curse
 Questo programma è scritto in Python e ha lo scopo di simulare la gestione di studenti universitari attraverso il paradigma della programmazione orientata agli oggetti (OOP). 
+
+# Contenuto del file ed obiettivi
+
+Il fulcro del programma è la definizione di una classe chiamata Studente, che funge da modello per creare oggetti che rappresentano studenti reali. Ogni oggetto creato a partire da questa classe possiede un insieme di informazioni personali — come nome, cognome, età e matricola — e una lista in cui vengono registrati i voti ottenuti nel tempo.
+Oltre agli attributi, la classe mette a disposizione una serie di metodi, ovvero azioni che ogni studente può compiere. È possibile, ad esempio, ottenere una presentazione dello studente, aggiungere un nuovo voto alla sua lista personale, calcolare la media di tutti i voti registrati e simulare un'attività di studio specificando quante ore ha dedicato. Ogni metodo opera esclusivamente sui dati dell'oggetto su cui viene chiamato, garantendo che le informazioni di uno studente non interferiscano mai con quelle di un altro.
+Nella parte finale del file, il programma mette in pratica tutto ciò che è stato definito: vengono creati due studenti distinti, su ciascuno vengono chiamati i vari metodi e i risultati vengono stampati in modo chiaro. Questo dimostra concretamente uno dei principi fondamentali della OOP, ovvero che ogni istanza di una classe mantiene il proprio stato indipendente. Il programma non richiede l'installazione di librerie esterne e può essere eseguito su qualsiasi sistema con Python 3 installato, semplicemente lanciando il file da terminale.
+Nel complesso, si tratta di un esempio didattico che illustra come modellare entità del mondo reale attraverso classi e oggetti, rendendo il codice più organizzato, riutilizzabile e facile da estendere in futuro.
